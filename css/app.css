@@ -2356,20 +2356,20 @@ a.th { display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\000033}}
 #principal { overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\000036}}
-#principal .slider-container { padding-top: 20px; overflow: visible; height: 200px; position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000312}}
+#principal .slider-container { padding-top: 20px; overflow: visible; height: 200px; position: relative; background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000313}}
 #principal .slider-container .orbit-container { position: absolute; width: 140%; top: -10%; left: -20%; z-index: 1; background: black; border-top: 10px solid white; border-top-image: url('../img/borda-slider.png?1375293521') 100% repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000323}}
 #principal .slider-container .orbit-container .slides { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: 1s; -moz-transition-duration: 1s; -o-transition-duration: 1s; transition-duration: 1s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000330}}
 #principal .slider-container .dados { position: absolute; top: 0; width: 400px; min-height: 100%; z-index: 2; padding: 20px; background-color: rgba(0, 0, 0, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000339}}
 #principal .slider-container .dados h2, #principal .slider-container .dados p { color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000342}}
-#principal .slider-container:nth-child(odd) .dados { left: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000343}}
+#principal .slider-container:nth-child(odd) .dados { left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000344}}
 #principal .slider-container:nth-child(odd) .orbit-container { -webkit-transform: rotate(10deg); -moz-transform: rotate(10deg); -ms-transform: rotate(10deg); -o-transform: rotate(10deg); transform: rotate(10deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000347}}
-#principal .slider-container:nth-child(even) .dados { right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000348}}
+#principal .slider-container:nth-child(even) .dados { right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000349}}
 #principal .slider-container:nth-child(even) .orbit-container { -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -ms-transform: rotate(-10deg); -o-transform: rotate(-10deg); transform: rotate(-10deg); }
