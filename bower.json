@@ -1,7 +1,16 @@
 {
-  "name": "gustavofelizola-com",
+  "name": "gustavofelizola.com",
   "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-  },
-  "devDependencies": {}
+    "greensock-js": "git://github.com/ahmednuaman/GreenSock-JS.git#~1.9.8",
+    "jquery": "git://github.com/components/jquery.git#1.10.2",
+    "jquery.inview": "https://github.com/zuk/jquery.inview.git"
+  }
 }

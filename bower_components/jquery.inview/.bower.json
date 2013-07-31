@@ -1,0 +1,12 @@
+{
+  "name": "jquery.inview",
+  "homepage": "https://github.com/zuk/jquery.inview",
+  "_release": "8bd5817188",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8bd5817188d9e6de340d6977cb1d18611d0bbd64"
+  },
+  "_source": "https://github.com/zuk/jquery.inview.git",
+  "_target": "*"
+}

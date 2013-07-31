@@ -1,0 +1,50 @@
+@import "compass";
+
+#principal {
+    overflow: hidden;
+    
+    .slider-container {
+        padding-top: 20px;
+        overflow   : visible;
+        height     : 200px;
+        position   : relative;
+
+        .orbit-container {
+            position: absolute;
+            width: 140%;
+            top: -10%;
+            left: -20%;
+            z-index: 1;
+            background: black;
+            border-top: 10px solid white;
+
+            .slides {
+                @include opacity(0.5);
+                @include transition-property(opacity);
+                @include transition-duration(1s);
+            }
+        }
+
+        .dados {
+            position: absolute;
+            top: 0;
+            width: 400px;
+            min-height: 100%;
+            z-index: 2;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.5);
+            
+            h2, p { color: #ffffff; }
+        }
+
+        &:nth-child(odd) {
+            .dados { left: 0; }
+            .orbit-container { @include rotate(10deg); }
+        }
+
+        &:nth-child(even) {
+            .dados { right: 0; }
+            .orbit-container { @include rotate(-10deg); }
+        }
+    }
+}
