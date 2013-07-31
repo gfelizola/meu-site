@@ -17,6 +17,7 @@
             z-index: 1;
             background: black;
             border-top: 10px solid white;
+            border-top-image: image-url('borda-slider.png') 100% repeat;
 
             .slides {
                 @include opacity(0.5);

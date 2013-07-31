@@ -56,12 +56,6 @@
         }
     });
 
-    $('#principal .slider-container').on('mouseover',function() {
-        TweenMax.to( $(this), 0.5, { height: 400, ease:Circ.easeOut });
-    }).on('mouseout', function() {
-        TweenMax.to( $(this), 0.5, { height: 200, ease:Circ.easeOut });
-    });
-
 })(jQuery, this);
 
 

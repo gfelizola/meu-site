@@ -4,6 +4,7 @@ var siteData = {
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#ff0000',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -13,6 +14,7 @@ var siteData = {
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#000000',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -22,6 +24,7 @@ var siteData = {
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#00ff00',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -194,12 +197,6 @@ var siteData = {
                 $(document).foundation('orbit');
             }
         }
-    });
-
-    $('#principal .slider-container').on('mouseover',function() {
-        TweenMax.to( $(this), 0.5, { height: 400, ease:Circ.easeOut });
-    }).on('mouseout', function() {
-        TweenMax.to( $(this), 0.5, { height: 200, ease:Circ.easeOut });
     });
 
 })(jQuery, this);

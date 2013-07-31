@@ -5214,6 +5214,7 @@ return!0},set:function(t){var e;if(1!==t)this._super.setRatio.call(this,t);else 
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#ff0000',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -5223,6 +5224,7 @@ return!0},set:function(t){var e;if(1!==t)this._super.setRatio.call(this,t);else 
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#000000',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -5232,6 +5234,7 @@ return!0},set:function(t){var e;if(1!==t)this._super.setRatio.call(this,t);else 
             {
                 titulo: 'Teste',
                 descricao: 'teste',
+                bg: '#00ff00',
                 imagens: [
                     'http://lorempixel.com/1000/400/people',
                     'http://lorempixel.com/1000/400/nature',
@@ -5404,12 +5407,6 @@ return!0},set:function(t){var e;if(1!==t)this._super.setRatio.call(this,t);else 
                 $(document).foundation('orbit');
             }
         }
-    });
-
-    $('#principal .slider-container').on('mouseover',function() {
-        TweenMax.to( $(this), 0.5, { height: 400, ease:Circ.easeOut });
-    }).on('mouseout', function() {
-        TweenMax.to( $(this), 0.5, { height: 200, ease:Circ.easeOut });
     });
 
 })(jQuery, this);
