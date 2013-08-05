@@ -196,6 +196,8 @@ var siteData = {
         }
     });
 
+    new gnMenu('#gn-menu');
+
 })(jQuery, this);
 
 

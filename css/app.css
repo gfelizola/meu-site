@@ -2353,23 +2353,152 @@ a.th { display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/foundation\/components\/_dropdown\.scss}line{font-family:\00003148}}
 .f-dropdown.large { max-width: 800px; }
 
+@font-face { font-family: "ecoicons"; src: url('fonts/ecoicons/ecoicons.eot'); src: url('fonts/ecoicons/ecoicons.eot?#iefix') format('eot'), url('fonts/ecoicons/ecoicons.woff') format('woff'), url('fonts/ecoicons/ecoicons.ttf') format('truetype'), url('fonts/ecoicons/ecoicons.svg#ecoicons') format('svg'); font-weight: normal; font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000311}}
+.gn-menu-main { position: fixed; top: 0; left: 0; z-index: 1000; width: 100%; height: 60px; font-size: 13px; margin: 0; padding: 0; background: white; color: #5f6f81; list-style: none; text-transform: none; font-weight: 300; font-family: 'Lato', Arial, sans-serif; line-height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000329}}
+.gn-menu-main ul { margin: 0; padding: 0; background: white; color: #5f6f81; list-style: none; text-transform: none; font-weight: 300; font-family: 'Lato', Arial, sans-serif; line-height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000341}}
+.gn-menu-main a { display: block; height: 100%; color: #5f6f81; text-decoration: none; cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000351}}
+.no-touch .gn-menu-main a:hover { background: #5f6f81; color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000355}}
+.no-touch .gn-menu li.gn-search-item:hover { background: #5f6f81; color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000359}}
+.no-touch .gn-menu li.gn-search-item:hover a { background: #5f6f81; color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000367}}
+.gn-menu-main > li { display: block; float: left; height: 100%; border-right: 1px solid #c6d0da; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000375}}
+.gn-menu-main li.gn-trigger { position: relative; width: 60px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000387}}
+.gn-menu-main > li:last-child { float: right; border-right: none; border-left: 1px solid #c6d0da; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\0000393}}
+.gn-menu-main > li > a { padding: 0 30px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003100}}
+.gn-menu-main:after { display: table; clear: both; content: ""; }
+
+/* icon-only trigger (menu item) */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003109}}
+.gn-menu-wrapper { position: fixed; top: 60px; bottom: 0; left: 0; overflow: hidden; width: 60px; border-top: 1px solid #c6d0da; background: white; -webkit-transform: translateX(-60px); -moz-transform: translateX(-60px); transform: translateX(-60px); -webkit-transition: -webkit-transform 0.3s, width 0.3s; -moz-transition: -moz-transform 0.3s, width 0.3s; transition: transform 0.3s, width 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003126}}
+.gn-scroller { position: absolute; overflow-y: scroll; width: 370px; height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003133}}
+.gn-menu { border-bottom: 1px solid #c6d0da; text-align: left; font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003139}}
+.gn-menu li:not(:first-child), .gn-menu li li { box-shadow: inset 0 1px #c6d0da; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003145}}
+.gn-submenu li { overflow: hidden; height: 0; -webkit-transition: height 0.3s; -moz-transition: height 0.3s; transition: height 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003152}}
+.gn-submenu li a { color: #c1c9d1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003157}}
+input.gn-search { position: relative; z-index: 10; padding-left: 60px; outline: none; border: none; background: transparent; color: #5f6f81; font-weight: 300; font-family: 'Lato', Arial, sans-serif; cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003171}}
+.gn-search::-webkit-input-placeholder, .gn-search:-moz-placeholder, .gn-search::-moz-placeholder, .gn-search:-ms-input-placeholder { color: #5f6f81; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003174}}
+.gn-search:focus::-webkit-input-placeholder { color: transparent; }
+
+/* hide placeholder when active in Chrome */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003181}}
+.no-touch .gn-menu li.gn-search-item:hover .gn-search:focus::-webkit-input-placeholder { color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003185}}
+input.gn-search:focus { cursor: text; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003190}}
+.no-touch .gn-menu li.gn-search-item:hover input.gn-search { color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003194}}
+.no-touch .gn-menu li.gn-search-item:hover .gn-search::-webkit-input-placeholder, .no-touch .gn-menu li.gn-search-item:hover .gn-search:-moz-placeholder, .no-touch .gn-menu li.gn-search-item:hover .gn-search::-moz-placeholder, .no-touch .gn-menu li.gn-search-item:hover .gn-search:-ms-input-placeholder { color: white; }
+
+/* placeholder */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003202}}
+.gn-menu-main a.gn-icon-search { position: absolute; top: 0; left: 0; height: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003209}}
+.gn-icon::before { display: inline-block; width: 60px; text-align: center; text-transform: none; font-weight: normal; font-style: normal; font-variant: normal; font-family: 'ecoicons'; line-height: 1; speak: none; -webkit-font-smoothing: antialiased; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003223}}
+.gn-icon-help::before { content: "\e000"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003227}}
+.gn-icon-earth::before { content: "\e004"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003231}}
+.gn-icon-cog::before { content: "\e006"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003235}}
+.gn-icon-search::before { content: "\e005"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003239}}
+.gn-icon-download::before { content: "\e007"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003243}}
+.gn-icon-photoshop::before { content: "\e001"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003247}}
+.gn-icon-illustrator::before { content: "\e002"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003251}}
+.gn-icon-archive::before { content: "\e00d"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003255}}
+.gn-icon-article::before { content: "\e003"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003259}}
+.gn-icon-pictures::before { content: "\e008"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003263}}
+.gn-icon-videos::before { content: "\e009"; }
+
+/* if an icon anchor has a span, hide the span */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003269}}
+.gn-icon span { width: 0; height: 0; display: block; overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003276}}
+.gn-icon-menu::before { margin-left: -15px; vertical-align: -2px; width: 30px; height: 3px; background: #5f6f81; box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81; content: ''; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003287}}
+.no-touch .gn-icon-menu:hover::before, .no-touch .gn-icon-menu.gn-selected:hover::before { background: white; box-shadow: 0 3px #5f6f81, 0 -6px white, 0 -9px #5f6f81, 0 -12px white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003293}}
+.gn-icon-menu.gn-selected::before { background: #5993cd; box-shadow: 0 3px white, 0 -6px #5993cd, 0 -9px white, 0 -12px #5993cd; }
+
+/* styles for opening menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003301}}
+.gn-menu-wrapper.gn-open-all, .gn-menu-wrapper.gn-open-part { -webkit-transform: translateX(0px); -moz-transform: translateX(0px); transform: translateX(0px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003307}}
+.gn-menu-wrapper.gn-open-all { width: 340px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003310}}
+.gn-menu-wrapper.gn-open-all .gn-submenu li { height: 60px; }
+
+@media screen and (max-width: 422px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003317}}
+  .gn-menu-wrapper.gn-open-all { -webkit-transform: translateX(0px); -moz-transform: translateX(0px); transform: translateX(0px); width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_gnmenu\.scss}line{font-family:\00003323}}
+  .gn-menu-wrapper.gn-open-all .gn-scroller { width: 130%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\000033}}
-#principal { overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\000036}}
+#principal { overflow: hidden; margin-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\000037}}
 #principal .slider-container { padding-top: 20px; overflow: visible; height: 200px; position: relative; background: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000314}}
 #principal .slider-container .orbit-container { position: absolute; width: 140%; top: -10%; left: -20%; z-index: 1; background: black; border-top: 10px solid white; border-top-image: url('../img/borda-slider.png?1375293521') 100% repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000324}}
 #principal .slider-container .orbit-container .slides { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: 1s; -moz-transition-duration: 1s; -o-transition-duration: 1s; transition-duration: 1s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000331}}
 #principal .slider-container .dados { position: absolute; top: 0; width: 400px; min-height: 100%; z-index: 2; padding: 20px; background-color: rgba(0, 0, 0, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000340}}
 #principal .slider-container .dados h2, #principal .slider-container .dados p { color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000343}}
-#principal .slider-container:nth-child(odd) .dados { left: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000344}}
+#principal .slider-container:nth-child(odd) .dados { left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000345}}
 #principal .slider-container:nth-child(odd) .orbit-container { -webkit-transform: rotate(10deg); -moz-transform: rotate(10deg); -ms-transform: rotate(10deg); -o-transform: rotate(10deg); transform: rotate(10deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000348}}
-#principal .slider-container:nth-child(even) .dados { right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000349}}
+#principal .slider-container:nth-child(even) .dados { right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/gustavo\/gustavofelizola\.com\/sass\/_page\.scss}line{font-family:\0000350}}
 #principal .slider-container:nth-child(even) .orbit-container { -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -ms-transform: rotate(-10deg); -o-transform: rotate(-10deg); transform: rotate(-10deg); }

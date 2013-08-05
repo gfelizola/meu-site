@@ -24,7 +24,8 @@ module.exports = function(grunt) {
                 src: [ 
                     'js/foundation/*.js',
                     'bower_components/greensock-js/src/minified/TweenMax.min.js',
-                    'bower_components/jquery.inview/jquery.inview.js'
+                    'bower_components/jquery.inview/jquery.inview.js',
+                    'js/vendor/gnmenu.jquery.js'
                 ],
                 dest: 'js/.tmp/vendor.js'
             },

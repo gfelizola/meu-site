@@ -10,46 +10,58 @@
     <script src="js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-
-    <header class="row">
-    <div class="large-4 small-4 large-centered small-uncentered columns">
-        <img src="http://placehold.it/200x200&text=Logo" alt="slide image">
-    </div>
-    <div class="large-12 small-8 large-centered small-uncentered columns">
-        <div class="contain-to-grid">
-            <nav class="top-bar">
-                <ul class="title-area">
-                    <li class="name"></li>
-                    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-                </ul>
-
-                <section class="top-bar-section">
-                    <ul class="left">
-                        <li class="active"><a href="#inicio">inicio</a></li>
-                        <li><a href="#sobre">sobre</a></li>
-                        <li><a href="#menu">menu</a></li>
-                        <li><a href="#contato">contato</a></li>
+    <ul id="gn-menu" class="gn-menu-main">
+        <li class="gn-trigger">
+            <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+            <nav class="gn-menu-wrapper">
+                <div class="gn-scroller">
+                    <ul class="gn-menu">
+                        <li class="gn-search-item">
+                            <input placeholder="Search" type="search" class="gn-search">
+                            <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                        </li>
+                        <li>
+                            <a class="gn-icon gn-icon-download">Downloads</a>
+                            <ul class="gn-submenu">
+                                <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                        <li><a class="gn-icon gn-icon-help">Help</a></li>
+                        <li>
+                            <a class="gn-icon gn-icon-archive">Archives</a>
+                            <ul class="gn-submenu">
+                                <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </section>
+                </div><!-- /gn-scroller -->
             </nav>
-        </div>
-    </div>
-</header>
+        </li>
+        <li><a href="http://tympanus.net/codrops">Codrops</a></li>
+        <li><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HeaderEffects/"><span>Previous Demo</span></a></li>
+        <li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
+    </ul>
 
-<section id="principal" class="row">
     
-</section>
-<!-- Footer -->
 
-<footer class="row">
-    <div class="large-12 columns">
-        <hr class="large-12 columns">
+    <section id="principal" class="row">
+        
+    </section>
+    <!-- Footer -->
+
+    <footer class="row">
         <div class="large-12 columns">
-                <p>&copy; Copyright Ainda vou colocar algo por aqui</p>
-            </div>
-    </div>
-</footer> 
+            <hr class="large-12 columns">
+            <div class="large-12 columns">
+                    <p>&copy; Copyright Ainda vou colocar algo por aqui</p>
+                </div>
+        </div>
+    </footer> 
 
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
